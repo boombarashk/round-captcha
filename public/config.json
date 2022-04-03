@@ -1,5 +1,6 @@
 {
   "colorBg": "#0b5cad",
   "colorBgHover": "#207edd",
+  "colorDisabled": "lightgray",
   "containerClassName": "root-round-captcha"
 }
