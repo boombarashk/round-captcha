@@ -1,0 +1,36 @@
+{
+  "homepage": "https://boombarashk.github.io/round-captcha/",
+  "name": "round-captcha",
+  "version": "0.9.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "description": "simple captcha",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boombarashk/round-captcha.git"
+  },
+  "keywords": [
+    "captcha"
+  ],
+  "author": "boombarashk",
+  "license": "ISC"
+}
