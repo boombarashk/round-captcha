@@ -2,7 +2,6 @@
   "homepage": "https://boombarashk.github.io/round-captcha/",
   "name": "round-captcha",
   "version": "0.9.0",
-  "private": true,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
