@@ -1,0 +1,25 @@
+{
+  "name": "round-captcha",
+  "version": "1.0.0",
+  "description": "simple captcha",
+  "scripts": {
+    "start:dev": "npx webpack serve",
+    "build": "npx webpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boombarashk/round-captcha.git"
+  },
+  "author": "boombarashk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boombarashk/round-captcha/issues"
+  },
+  "homepage": "https://github.com/boombarashk/round-captcha#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
