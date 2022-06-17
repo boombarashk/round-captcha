@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejemplo captcha</title>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="./bundle.js"></script>
+    <style>
+        html, body{min-height:100vh} body {display:flex; margin:0;padding:0; justify-content: center;} .container{align-self: center}
+        .root-round-captcha-text {margin-bottom: 2em}
+    </style>
 </head>
 <body>
+  <div class="container">
     <h1>Soy un hombre!</h1>
     <div class="root-round-captcha"></div>
+  </div>
 </body>
 </html>

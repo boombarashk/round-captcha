@@ -85,7 +85,7 @@ export default class RoundCaptcha {
 
     taskText() {
         const orderText = !!orderDesc ? MESSAGES.DESC : MESSAGES.ASC
-        this.createBlock({text: `Organizar en orden ${orderText}  de área:`})
+        this.createBlock({text: `Organizar en orden ${orderText}  de área:`, className: 'root-round-captcha-text'})
     }
 
     start() {
